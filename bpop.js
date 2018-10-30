@@ -1,4 +1,4 @@
-(function($){
+
   jQuery(document).ready(function(){
     jQuery('.main-navigation-toggle').attr('href', '#masthead');
     function bellowPop(){jQuery('body').addClass('freeze');jQuery('.bellows, #primary, #secondary').addClass('fly');}
@@ -10,4 +10,4 @@
     			jQuery('.bellows-main').not('.bellows-nav').on('click', function(){bellowDown();});}
             if(jQuery(this).is(':not(.fly)')){bellowDown();}
     }); 
-})(jQuery);
+
